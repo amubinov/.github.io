@@ -1,8 +1,9 @@
 .note {
-    color: aqua;
-    background-color: yellowgreen;
+    color:aqua;
+    background-color:yellowgreen;
 }
+
 #uniq_id {
-    color: rebeccapurple;
+    color:rebeccapurple;
     background-color:aqua;
 }
