@@ -1,0 +1,23 @@
+.banner__item_first { 
+    color:red;
+    background-color: gold;
+    }
+
+.banner__item_second {
+    color: red;
+    background-color: gold;
+    }
+
+.banner__item_third {
+    color:red;
+    background-color:gold;
+}    
+#lorem {
+    color: white;
+    background-color:blue ;
+    width:270px;
+    height: 180px;
+    padding:50px;
+    border:25px ;
+    margin:15px ;
+}
