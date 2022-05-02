@@ -13,11 +13,11 @@
     background-color:gold;
 }    
 #lorem {
-    color: white;
-    background-color:blue ;
-    width:270px;
-    height: 180px;
-    padding:50px;
-    border:25px ;
-    margin:15px ;
+    background-color: blue; 
+  color: white; 
+  width: 375px;
+  height: 210px;
+  padding: 30px;
+  border: 15px solid blueviolet; 
+  margin: 20px 15px 15px 10px;
 }
