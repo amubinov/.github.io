@@ -12,6 +12,8 @@
     text-shadow: var(--text-shadow);
     background-color: var(--background-color);
     font-size: var(--font-size);
+    width: 700px;
+    margin-left: 10vw;
 }
 
 .banner-style {
@@ -24,3 +26,11 @@
     
 }
 
+.questionnaire {
+    background-color: aqua;
+    width: 550px;
+    height: 500px;
+    margin:150px;
+    border:25px solid red;
+    
+}
