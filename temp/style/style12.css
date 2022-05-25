@@ -1,0 +1,16 @@
+.body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_opacity {
+    width: 400px;
+    height: 250px;
+    background-color: brown;
+    opacity: 0.9;
+    filter:blur(4px)
+}
+
+.transform { 
+    transform:rotate(27deg)
+}

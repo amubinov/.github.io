@@ -1,0 +1,26 @@
+:root {
+    --primary-color: red;
+    --text-shadow: 3px 3px 2px rgb(79, 248, 0);
+    --background-color:blue;
+    --font-size:xx-large;
+    --box-shadow:15px 15px 8px 0px rgba(0, 0, 0, 0.9);
+  
+}
+
+.first {
+    color: var(--primary-color);
+    text-shadow: var(--text-shadow);
+    background-color: var(--background-color);
+    font-size: var(--font-size);
+}
+
+.banner-style {
+    width: 500px;
+    height: 500px;
+    margin: 150px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+    color:greenyellow
+    
+}
+
