@@ -1,33 +1,32 @@
-/*let a=42
-alert(typeof a)*/ //number
+let a=42
+alert(typeof a) //number
 
-/*let b=true
-alert(typeof b);*/ //boolean 
+let b=true
+alert(typeof b); //boolean 
 
-/*let c ='строка'
-alert(typeof c);*/ //string
+let c ='строка'
+alert(typeof c); //string
 
-/*d=undefined
-alert(typeof d)*/ //undefined
-
-
+d=undefined
+alert(typeof d) //undefined
 
 
-/*let a=1    //циклы
-while (a < 10) {
-    i++ ;
-    console.log(a);
-    debugger;
-} */
 
-/*let a=2
-do {console.log(a);
-    debugger;
-    a++;
-}while (a<10)*/
 
-/*for (var a = 0; a < 9; a++) {
-    console.log(a); debugger;}*/
+let g=1    //циклы
+while (g < 10) {
+    g++ ;
+    console.log(g);
+  
+} 
+
+let e=2
+do {console.log(e);
+    e++;
+}while (e<10)
+
+for (var f = 0; f < 9; f++) {
+    console.log(f); }
 
     let UserAge= 20;
 
@@ -43,19 +42,3 @@ do {console.log(a);
         break;
     }
    
-
-  /*  let a = 4;
-
-switch (a) {
-  case 3:
-    alert( 'Маловато' );
-    break;
-  case 4:
-    alert( 'В точку!' );
-    break;
-  case 5:
-    alert( 'Перебор' );
-    break;
-  default:
-    alert( 'Нет таких значений' );
-    debugger;} */
