@@ -7,10 +7,11 @@ console.log(typeof b); //boolean
 let c ='строка'
 console.log(typeof c); //string
 
-d=undefined
+let d;
 console.log(typeof d) //undefined
 
-
+const i=3.14
+console.log(i)
 
 
 let g=1    //циклы
@@ -29,8 +30,7 @@ for (var f = 0; f < 9; f++) {
     console.log(f); }
 
     let UserAge= 20; //switch
-
-    switch(UserAge) {
+      switch(UserAge) {
         case 1:
         case 2:
         case 3:
@@ -59,4 +59,3 @@ for (var f = 0; f < 9; f++) {
           console.log('Привет Юноша!')
         break;
     }
-   
