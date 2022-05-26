@@ -56,6 +56,6 @@ for (var f = 0; f < 9; f++) {
         case 19:
         case 20:
         case 21:
-          console.log('Привет Юноша!')
+          console.log('Привет юноша!')
         break;
     }
