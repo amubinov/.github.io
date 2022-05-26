@@ -29,7 +29,7 @@ do {console.log(a);
 /*for (var a = 0; a < 9; a++) {
     console.log(a); debugger;}*/
 
-    let UserAge= 14;
+    let UserAge= 20;
 
     switch(UserAge) {
         case 6:
