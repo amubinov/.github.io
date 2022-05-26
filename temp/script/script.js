@@ -28,7 +28,7 @@ do {console.log(e);
 for (var f = 0; f < 9; f++) {
     console.log(f); }
 
-    let UserAge= 22;
+    let UserAge= 20; //switch
 
     switch(UserAge) {
         case 1:
