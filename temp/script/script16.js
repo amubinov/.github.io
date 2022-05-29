@@ -9,11 +9,11 @@ let arr = [];
 let auto = ["audi" , "mersedes" , "volkswagen" , "porshe" , "skoda"]
 console.log(auto.length);
 
-auto.unshift("seat");{ //добавление в начало массива
+auto.unshift["seat"];{ //добавление в начало массива
 console.log(auto);
 }
 
-auto.push("citroen");{ //добавление в конец массива
+auto.push["citroen"];{ //добавление в конец массива
 console.log(auto);
 }
 
