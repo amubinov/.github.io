@@ -1,19 +1,21 @@
-let object = new Object();
-let name = 'Alex';
-let age = 37 ;
-let a = true ;
-let b;
-console.log(name , age , a , b);
+let userName = {
+	Name: "Alex",
+	year: 36,
+	isMan: true ,
+  b: undefined,
+  c: null}
+console.log (userName)
+
 
 let arr = [];
 let auto = ["audi" , "mersedes" , "volkswagen" , "porshe" , "skoda"]
 console.log(auto.length);
 
-auto.unshift["seat"];{ //добавление в начало массива
+auto.unshift("seat");{ //добавление в начало массива
 console.log(auto);
 }
 
-auto.push["citroen"];{ //добавление в конец массива
+auto.push("citroen");{ //добавление в конец массива
 console.log(auto);
 }
 
@@ -36,6 +38,6 @@ function Hello(Name, Age) {
   
   return 'Привет ' + Name + ', ' + 'Твой возраст ' + Age;
 }
-let message = Hello((Name), (Age));
+let message = Hello(Name,Age);
 
 console.log(message);
