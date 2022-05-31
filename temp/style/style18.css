@@ -1,0 +1,9 @@
+.key {
+    width: 200px;
+    height: 100px;
+    margin: 50px 0px 0px 500px;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: blueviolet;
+}

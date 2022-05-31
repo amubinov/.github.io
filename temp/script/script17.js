@@ -1,4 +1,4 @@
-const text = document.getElementById('banner__item') ; //получить элемент по id
+const text = document.getElementById('text') ; //получить элемент по id
 console.log(text) ;
 
 const myList = document.querySelectorAll('li') ; //Получить все элементы списка
@@ -7,23 +7,16 @@ console.log(myList) ;
 const first = document.querySelector('li') ; //Получить первый элемент списка
 console.log(first) ;
 
-const parent = text.closest('.banner') ;//Получить родителя первого элемента списка
+const parent = text.closest('banner__item') ;//Получить родителя первого элемента списка
 console.log(parent) ;
 
 const nodes = Array.from(document.querySelectorAll('p')); //добавить текст
 
-nodes.forEach(function(el) {
+nodes.forEach(function(el) {   //Добавить во все элементы списка произвольный текст
     const currentText = el.innerText;
     el.innerText = 'Привет! ' + currentText ;
     console.log(currentText);
 });
-
-
-// node.innerHTML = '<p>Привет мир!</p>'; 
-// //node.innerText = 'Привет';
-// console.log(node); 
-
- 
 
 const  box = document.body ;
 const pos = document.createElement('span') ;//Создать пустой html-узел для абзаца
