@@ -15,7 +15,7 @@ const nodes = Array.from(document.querySelectorAll('p')); //добавить т�
 
 nodes.forEach(function(el) {   //Добавить во все элементы списка произвольный текст
     const currentText = el.innerText;
-    el.innerText = 'Привет! ' + currentText ;
+    el.innerText = 'Привет! ' + currentText ; //a
     console.log(currentText);
 });
 
