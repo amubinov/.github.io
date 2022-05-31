@@ -1,4 +1,4 @@
-const text = document.getElementById('text') ; //получить элемент по id
+const text = document.getElementById('textbox') ; //получить элемент по id
 console.log(text) ;
 
 const myList = document.querySelectorAll('li') ; //Получить все элементы списка
@@ -7,7 +7,8 @@ console.log(myList) ;
 const first = document.querySelector('li') ; //Получить первый элемент списка
 console.log(first) ;
 
-const parent = text.closest('banner__item') ;//Получить родителя первого элемента списка
+const child = document.getElementById('textbox') ;
+const parent = child.closest('ul') ;//Получить родителя первого элемента списка
 console.log(parent) ;
 
 const nodes = Array.from(document.querySelectorAll('p')); //добавить текст
