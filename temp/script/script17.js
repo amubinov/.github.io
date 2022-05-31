@@ -10,22 +10,20 @@ console.log(first) ;
 const parent = text.closest('.banner') ;//Получить родителя первого элемента списка
 console.log(parent) ;
 
-const nodes = document.querySelectorAll('p'); //добавить текст
+const nodes = Array.from(document.querySelectorAll('p')); //добавить текст
 
-const nodeArr = [];
-
-for (let index = 0; index < nodes.length; index++) {
-    nodeArr.push(nodes[i]);    
-}
-
-const updateParagraph = (el) => {
-    el => el.innerText = '$$$ ' + el.innerText;
-};
+nodes.forEach(function(el) {
+    const currentText = el.innerText;
+    el.innerText = 'Привет! ' + currentText ;
+    console.log(currentText);
+});
 
 
-nodeArr.forEach(updateParagraph); 
+// node.innerHTML = '<p>Привет мир!</p>'; 
+// //node.innerText = 'Привет';
+// console.log(node); 
 
-// 1. Получаем элменты + перводим в массив
+ 
 
 const  box = document.body ;
 const pos = document.createElement('span') ;//Создать пустой html-узел для абзаца
