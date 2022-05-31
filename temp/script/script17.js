@@ -10,12 +10,9 @@ console.log(first) ;
 const parent = text.closest('.banner') ;//Получить родителя первого элемента списка
 console.log(parent) ;
 
-const node = document.querySelector('p'); //добавить текст
-node.innerHTML = '<p>Привет мир!</p>'; 
-//node.innerText = 'Привет';
-console.log(node); 
+const nodes = Array.from(document.querySelectorAll('p')); //добавить текст
 
- 
+nodes.forEach(el => el.innerText = '$$$ ' + el.innerText); 
 
 const  box = document.body ;
 const pos = document.createElement('span') ;//Создать пустой html-узел для абзаца
