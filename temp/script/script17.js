@@ -1,4 +1,4 @@
-/*const text = document.getElementById('banner__item') ; //получить элемент по id
+const text = document.getElementById('banner__item') ; //получить элемент по id
 console.log(text) ;
 
 const myList = document.querySelectorAll('li') ; //Получить все элементы списка
@@ -8,16 +8,16 @@ const first = document.querySelector('li') ; //Получить первый э�
 console.log(first) ;
 
 const parent = text.closest('.banner') ;//Получить родителя первого элемента списка
-console.log(parent) ;*/
+console.log(parent) ;
 
 const node = document.querySelector('p'); //добавить текст
-node.innerHTML = '<p>Привет мир!</p>';
+node.innerHTML = '<p>Привет мир!</p>'; 
 //node.innerText = 'Привет';
-console.log(node);
+console.log(node); 
 
  
 
-/*const  box = document.body ;
+const  box = document.body ;
 const pos = document.createElement('span') ;//Создать пустой html-узел для абзаца
 pos.innerText = 'Привет! Это добавленный текст!' ; //добавить в него любой текст
 box.append(pos) ;//Добавить созданный абзац последним элементом в body
@@ -32,6 +32,6 @@ pos.style.color = 'gold' ;
 
 const bcolor = document.querySelector('ul') ; //изменить цвет текста для всех элементов списка
 bcolor.style.color = 'red';
-bcolor.style.backgroundColor = 'blue';*/
+bcolor.style.backgroundColor = 'blue';
 
 
