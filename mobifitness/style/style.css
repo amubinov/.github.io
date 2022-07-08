@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Eastman Bold';
+    src: url("../fonts/Eastman-Bold.eot");
+    src: local("Eastman-Bold"), local("Eastman-Bold"), url("../fonts/Eastman-Bold.eot?#iefix")format("embedded-opentype"), url("../fonts/Eastman-Bold.woff2") format("woff2"), url("../fonts/Eastman-Bold.woff")format("woff"), url("../fonts/Eastman-Bold.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Regular';
+  src: url("../fonts/Eastman-Regular.eot");
+  src: local("Eastman Regular"), local("Eastman Regular"), url("../fonts/Eastman-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Eastman-Regular.woff2") format("woff2"), url("../fonts/Eastman-Regular.woff") format("woff"), url("../fonts/Eastman-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Medium';
+  src: url("../fonts/Eastman-Regular.eot");
+  src: local("Eastman Medium"), local("Eastman Medium"), url("../fonts/Eastman-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Eastman-Medium.woff2") format("woff2"), url("../fonts/Eastman-Medium.woff") format("woff"), url("../fonts/Eastman-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeroport Mono';
+  src: url("../fonts/Aeroport-Mono.eot");
+  src: local("Aeroport Mono"), local("Aeroport Mono"), url("../fonts/AeroportMono.eot?#iefix") format("embedded-opentype"), url("../fonts/AeroportMono.woff2") format("woff2"), url("../fonts/AeroportMono.woff") format("woff"), url("../fonts/AeroportMono.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  --font-primary: 'Eastman Medium';
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 184px 0 185px;
+}
+
+.subscribe {
+  width: 305px;
+  height: 52px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(91.65deg, #93E736 -28.46%, #13A16C 105.66%);
+  font-family: Eastman Medium;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+}
+
+.container {
+  width: auto;
+  height: 945px;
+  color: white;
+  font-family: var(--font-primary);
+  font-size: 32px;
+}
+
+.container__left-cicle {
+  width: 362px;
+  height: 362px;
+  margin: 50px 1px 1px -175px;
+  border-radius: 362px;
+  background: linear-gradient(131.3deg, #15B68E 8.56%, #93E736 87.99%);
+  transform: rotate(37.41deg);
+}
+
+.container__left-envelope {
+  position: absolute;
+  width: 248px;
+  height: 220px;
+  left: 50px;
+  top: 196px;
+  transform: rotate(0deg);
+}
+
+.container__left-heart {
+  position: absolute;
+  width: 212px;
+  height: 171px;
+  left: 194px;
+  top: 591px;
+  z-index: 2;
+
+}
+
+.container__right-envelope_2 {
+  position: absolute;
+  width: 181px;
+  height: 154px;
+  left: 1636px;
+  top: 144px;
+  transform: rotate(359.5deg);
+}
+
+.container__right-like {
+  position: absolute;
+  width: 232px;
+  height: 191px;
+  left: 1500px;
+  top: 423px;
+  transform: rotate(0deg);
+}
+
+.container__right-heart {
+  position: absolute;
+  width: 105px;
+  height: 95px;
+  left: 1281px;
+  top: 470px;
+  transform: rotate(360deg);
+}
+
+.container__rigth-circle {
+  position: absolute;
+  width: 670px;
+  height: 670px;
+  border-radius: 670px;
+  left: 1494px;
+  top: 376px;
+  background: linear-gradient(131.3deg, #15B68E 8.56%, #93E736 87.99%);
+  transform: rotate(37.41deg);
+}
+
+.container__title {
+  position: absolute;
+  width: 1094px;
+  height: 258px;
+  left: 395px;
+  top: 212px;
+}
+
+.title {
+  font-family: 'Eastman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 86px;
+  text-align: center;
+  color: #000000;
+}
+
+.container__title-line {
+  position: absolute;
+  width: 3028.17px;
+  height: 97px;
+  left: -461.05px;
+  top: 442px;
+  background: #FBD748;
+  box-shadow: 0px 0px 1px rgba(0, 20, 51, 0.3), 0px 6px 16px rgba(0, 20, 51, 0.15);
+  transform: rotate(-5deg);
+  z-index: 1;
+}
+
+.text-line {
+  font-family: 'Aeroport Mono';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.communication {
+  position: absolute;
+  width: 1005px;
+  height: 998px;
+  left: 322px;
+  top: 1010px;
+}
+
+.communication__title {
+  font-family: 'Eastman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 86px;
+  color: #000000;
+}
+
+.communication__text {
+  position: absolute;
+  width: 729px;
+  height: 150px;
+  left: -2px;
+  top: 236px;
+  font-family: 'Eastman Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.communication__list {
+  display: flexbox;
+  justify-content: center;
+  position: absolute;
+  width: 3125.29px;
+  height: 550px;
+  left: -240px;
+  top: 516px;
+  background-color: #15B68E;
+}
+
+.communication__item {
+  
+  
+  width: 427.79px;
+  height: 490px;
+  margin: 0 10px 0 10px;
+  background-color: aquamarine;
+
+}
+
