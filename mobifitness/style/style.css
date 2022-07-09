@@ -39,7 +39,7 @@
   display: flex;
   justify-content: space-between;
   margin: 40px 200px 40px 202px;
-  max-width: 100%
+  max-width: 100%;
   height: 140px;
 }
 
@@ -59,7 +59,7 @@
   background: linear-gradient(91.65deg, #93E736 -28.46%, #13A16C 105.66%);
   border-radius: 50px;
   border:none;
-  font-family: 'Eastman Medium';
+  font-family: 'Eastman Medium', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
