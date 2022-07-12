@@ -1,0 +1,11 @@
+.note {
+    color:aqua;
+    background-color:yellowgreen;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#uniq_id {
+    color:rebeccapurple;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: large;
+}
