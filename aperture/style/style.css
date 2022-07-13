@@ -3,133 +3,37 @@
     src: url("../fonts/Poppins-Regular.eot");
     src: local("Poppins-Regular"), local("Poppins-Regular"), url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), 
     url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype");
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
-body {
+* {
     font-family: 'Poppins-Regular';
-    color: white;
-    background-color: rgb(172, 172, 172);
-    /* box-sizing: border-box; */
-    max-width: 1440px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-}
-
-.header {
-    width: 100%;
-    height: 90px;
-}
-.nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.home {
-    width: 128px;
-    height: 31px;
-    padding: 30px 300px 29px 152px;
-}
-
-.nav__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 700px;
-    height: 50px;
-    margin:20px 137px 0 0;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    
-}
-.nav__item {
-    list-style-type: none;
-}
-
-ul li:nth-child(n+1) {
-    font-size: 15px;
-}
-
-ul li:first-child {
-    font-size: 13px;
-    line-height: 20px;
-}
-
-ul li:last-child {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
-}
-
-.btn {
-    width: 158px;
-    height: 44px;
-    border-radius: 15px;
-    background-color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
-    color: black;
-}
-
-.into {
-    width: 1440px;
-    height: 716px;
-    background-image: url(../img/into.png);
+    box-sizing: border-box;
     
 }
 
-.title {
-    width: 609px;
-    height: 320px;
-    text-align: center;
+.footer {
+    
+    height: 452px;
+    margin: 0 auto;
 }
-.into__title {
-    margin-left: 175px;
-    margin-top: 80px;
-    width: 263px;
+
+.contacts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__text {
+    width: 400px;
     height: 20px;
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #C0C0C0;
 }
 
-h1 {
-    width: 463px;
-    height: 60px;
-    margin-left: 74px;
-    margin-top: -12px;
-    font-size: 54px;
-    line-height: 59px;
-    text-align: center;
-}
-
-.into__text {
-    width: 580px;
-    height: 80px;
-    margin-top: -29px;
-    margin-left: 15px;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    color: #C0C0C0;
-}
-
-.title__list {
-    display: flex;
-    /* justify-content: flex-end; */
-    height: 16px;
-    width: 1440px;
-    padding-bottom: 17px;
-    padding-right: 24px;
-}
-.title__item {
-    list-style-type: none;
-    margin-right: 16px;
+.network {
+    width: 112px;
+    height: 24px;
 }
