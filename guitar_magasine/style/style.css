@@ -354,9 +354,9 @@ body{
     max-height: 512px;
 }
 .intro__guitars {
-    padding-top: 81px;
+    padding-top: 82px;
     width: 47.5%;
-    padding-top: 90px;
+    padding-top: 89px;
 }
 .intro__guitars-title {
     font-family: 'Cal Sans';
@@ -373,16 +373,18 @@ body{
 }
 
 .intro__guitars-text {
+    width: 413px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #666666;
-    padding-bottom: 55px;
+    padding-bottom: 33px;
 }
 
 .into__guitars-button {
+    padding-top: px;
 }
 .into__guitars-button-btn {
     width: 192px;
@@ -399,20 +401,38 @@ body{
 }
 
 .into__guitars-button-play {
-    padding-left: 40px;
+    padding-left: 36px;
 }
 .into__guitars-button-appstr {
-    padding-left: 28px;
+    padding-left: 22px;
 }
 .intro__img {
     position: absolute;
     top: 0;
     left: 52.5%;
+    width: 672px;
+    height: 586px;
+    background: #666666;
 }
 .intro__img-pic {
     z-index: 1;
-
 }
+
+.intro__img-circle {
+    position: absolute;
+    left: 349px;
+    top: 546px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius:80px;
+    background: white;
+}
+
 .intro__img-logo {
+    width: 24px;
+    height: 24px;
 
 }
