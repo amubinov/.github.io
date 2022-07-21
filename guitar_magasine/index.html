@@ -9,53 +9,65 @@
 </head>
 <body class="body">
     <header class="header">
-        <div class="bg-img">
-            <div class="bg-img-circle"><img class="circle-img" src="img/svg/Butterfly.svg" alt=""></div>
+        <div class="wrapper">
+            <img class="header__img" src="img/guitar.jpg" alt="guitar">
             <div class="nav">
                 <a href="#!" class="nav__link">
-                    <img src="img/svg/logo.svg" alt="Logo" class="nav__link-logo">
+                    <img src="img/svg/logo.svg" alt="" class="nav__link-logo">
                 </a>
                 <ul class="nav__list">
-                    <lo class="nav__item">Store</lo>
-                    <lo class="nav__item">Collections</lo>
-                    <lo class="nav__item">Support</lo>
+                    <li class="nav__item">Store</li>
+                    <li class="nav__item">Collections</li>
+                    <li class="nav__item">Support</li>
                 </ul>
+            </div>
+            <div class="header__title">
+                <h1>
+                    Browse top quality <span class="text-orange">Guitars</span> online
+                </h1>
+                <p class="header__title-text">
+                    Explore 50k+ latest collections of branded guitars online with Rhythm.
+                </p>
+                <div class="header__app">
+                    <button class="header__app-btn">Get the App</button>
+                    <img src="img/svg/play.svg" alt="playmarket" class="header__app-play">
+                    <img src="img/svg/appstr.svg" alt="" class="header__app-appstore">
+                </div>
+                <div class="header__circle">
+                    <img class="header__circle-logo" src="img/svg/Butterfly.svg" alt="Butterfly">
+                </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="intro">
-            <div class="wrapper">
-                <div class="intro__title">
-                    <h1>
-                        Browse top quality <span class="title-orange">Guitars </span>online
-                    </h1>
-                    <p class="intro__title-text">
-                        Explore 50k+ latest collections of branded guitars online with Rhythm.
-                    </p>
-                    <div class="intro__app">
-                        <button class="intro__app-btn">Get the App</button>
-                        <img src="img/svg/play.svg" alt="playmarket" class="intro__app-play">
-                        <img src="img/svg/appstr.svg" alt="appstore" class="intro__app-appstr">
-                    </div>
-                </div>
-            </div>    
-        </section>
         <section class="store">
             <div class="wrapper">
-                <h2 class="store__title">Check out the Store</h2>
-                <div class="store__board">
-                    <p class="store__board-text">
-                        NEW ON THE BOARD
-                    </p>
-                    <a href="#!" class="store__board-view">view all</a>
-                    <ul class="store__list">
-                        <li class="store__item"></li>
-                        <li class="store__item"></li>
-                        <li class="store__item"></li>
-                    </ul> 
-                </div>
+                <h2 class="store__title">Check out the<span class="text-orange">Store</span></h2>
+                    <div class="store__board">
+                        <div class="board__title">
+                            <p class="board__text">NEW ON THE BOARD</p>
+                            <a href="#!" class="board__link">view all</a>
+                        </div>
+                        <ul class="board__list">
+                            <li class="board__item">
+                                <img src="img/les_paul.jpg" alt="les_paul">
+                                <p class="item__title">The Essential Les Paul</p>
+                                <p class="item_price">$1,299.00</p>
+                            </li>
+                            <li class="board__item">
+                                <img src="img/r_g.jpg" alt="rock-guitar">
+                                <p class="item__title">J-45 Standard</p>
+                                <p class="item_price">$1,699.00</p>
+                            </li>
+                            <li class="board__item">
+                                <img src="img/musicman.jpg" alt="musicman">
+                                <p class="item__title">Hummingbird Standard</p>
+                                <p class="item_price">$2,099.00</p>
+                            </li>
+                        </ul>
+                    </div>    
             </div>
+            </div>   
         </section>
     </main>
 </body>
