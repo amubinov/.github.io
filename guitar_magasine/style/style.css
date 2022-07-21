@@ -301,138 +301,149 @@ body{
     font-weight: 400;   
     width: 1440px;
     margin: 0 auto;
+    
 }
 
 .header {
-    height: 154px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(18, 18, 18, 0.4);
-    z-index: 25;
+}
+.bg-img {
+    max-width: 1440;
+    height: 586px;
+    margin: 0 auto;
+    background: url(../img/guitar.jpg) no-repeat top right;
 }
 
-.wrapper{
-    max-width: 1200px;
-    margin: 0 auto;
+.bg-img-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 545px;
+    left: 1356px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: white;
 }
+
+.circle-img {
+    width: 24px;
+    height: 24px;
+}
+
 
 .nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    height: 29px;
-    padding-top: 62px;
+    align-items: center;
 }
-
-.nav__logo {
-    padding-right: 135px;
+.nav__link {
+    margin:62px 120px ;
 }
-.nav__logo-img {
-}
-.nav__logo_svg {
+.nav__link-logo {
+    
 }
 .nav__list {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5px;
+    padding-left: 15px;
+    
 }
+
+.nav__item:first-child {
+    padding-left: 0px;
+}
+
 .nav__item {
-    padding-right: 56px;
+    padding-left: 53px;
 }
 
-.nav__item:last-child {
-    padding-right: 81px;
+.wrapper {
+    max-width: 1200px;
+}
+.intro__title {
+    position: absolute;
+    top: 243px;
+    left: 359px;
+    width: 469px;
+    height: 432px;
+
 }
 
-.intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-height: 512px;
-}
-.intro__guitars {
-    padding-top: 82px;
-    width: 47.5%;
-    padding-top: 89px;
-}
-.intro__guitars-title {
+h1 {
     font-family: 'Cal Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
     line-height: 67px;
     color: #121212;
-    padding-bottom: 9px;
 }
 
-.into__guitars-title-orange {
+.title-orange {
     color: #FF6428;
 }
-
-.intro__guitars-text {
-    width: 413px;
+.intro__title-text {
+    max-width: 399px;
+    padding-top: 10px;
+    padding-left: 1.2px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #666666;
-    padding-bottom: 33px;
 }
 
-.into__guitars-button {
-    padding-top: px;
+.intro__app {
 }
-.into__guitars-button-btn {
+.intro__app-btn {
     width: 192px;
     height: 60px;
+    margin-top: 32px;
+    margin-left: 1px;
     background: #FF6428;
     border-radius: 40px;
     border: none;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
 }
-
-.into__guitars-button-play {
+.intro__app-play {
     padding-left: 36px;
 }
-.into__guitars-button-appstr {
-    padding-left: 22px;
-}
-.intro__img {
-    position: absolute;
-    top: 0;
-    left: 52.5%;
-    width: 672px;
-    height: 586px;
-    background: #666666;
-}
-.intro__img-pic {
-    z-index: 1;
+.intro__app-appstr {
+    padding-left: 21px;
 }
 
-.intro__img-circle {
-    position: absolute;
-    left: 349px;
-    top: 546px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    border-radius:80px;
-    background: white;
+.store {
+    padding-top: 160px;
+    text-align: center;
 }
+.wrapper {
+}
+.store__title {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    color: #121212;
+}
+.store__board {
+}
+.store__board-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    color: #121212;
+}
+.store__board-view {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #868686;
+    text-decoration: none;
 
-.intro__img-logo {
-    width: 24px;
-    height: 24px;
-
+}
+.store__list {
+}
+.store__item {
 }
