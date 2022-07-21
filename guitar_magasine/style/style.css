@@ -55,7 +55,7 @@
     font-weight: 400;
 }
 .header {
-
+    background-color: white;
 }
 
 .header__img {
@@ -170,8 +170,7 @@ h1 {
     margin-top: 230px;
     text-align: center;
 }
-.wrapper {
-}
+
 .store__title {
     font-family: 'Cal Sans';
     font-style: normal;
@@ -181,8 +180,7 @@ h1 {
     color: #121212;
 
 }
-.store__board {
-}
+
 .board__title {
     display: flex;
     justify-content: space-between;
@@ -210,8 +208,11 @@ h1 {
     padding: 0;
 }
 .board__item {
+    background-color: white;
 }
 .item__title {
+    background-color: white;
 }
 .item_price {
+    background-color: white;
 }
