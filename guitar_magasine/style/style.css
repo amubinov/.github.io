@@ -54,9 +54,6 @@
     font-style: normal;
     font-weight: 400;
 }
-.header {
-    background-color: white;
-}
 
 .header__img {
     position: absolute;
@@ -167,7 +164,7 @@ h1 {
 }
 
 .store {
-    margin-top: 230px;
+    margin-top: 229px;
     text-align: center;
 }
 
@@ -185,7 +182,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 61px;
+    margin-top: 63px;
 }
 .board__text {
     font-weight: 600;
@@ -206,13 +203,87 @@ h1 {
     justify-content: space-between;
     list-style-type: none;
     padding: 0;
+    margin-bottom: 65px;
 }
-.board__item {
-    background-color: white;
-}
+
 .item__title {
-    background-color: white;
+    margin: 32px 0 0 1.5px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121212;
+
 }
 .item_price {
-    background-color: white;
+    margin-top: 6px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
+
+.categories {
+}
+.categories__title {
+    margin: 174px 0 74px 320px;
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    color: #000000;
+}
+.categories__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 22px;
+}
+.categories__item {
+    list-style-type:none;
+}
+
+.categories__item-link {
+    text-decoration: none;
+}
+
+.categories__item-text {
+    margin-top:-67px ;
+    opacity: 0.9;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.brands {
+}
+.brands__title {
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+    margin: 236px 0 68px 70px;
+}
+
+.brands__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 73px;
+    list-style-type:none;
+    margin: 0 0 0 170px;
+}
+
+.brands__item {
+}
+.brands__item-logo {
 }
