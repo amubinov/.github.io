@@ -283,7 +283,136 @@ h1 {
     margin: 0 0 0 170px;
 }
 
-.brands__item {
+/* .brands__item {
 }
 .brands__item-logo {
+} */
+
+.rhythm {
+    height: 508px;
+    background: #121212;
+
+}
+
+.rhythm__title {
+    padding-top: 99px;
+    margin: 144px 0 0 432px;
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+
+.rhythm__list {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1px;
+}
+
+.rhythm__item {
+    width: 235px;
+    height: 250px;
+    list-style-type:none;
+    text-align: center;
+    margin: 11px 225px 1px -9px;
+
+    
+
+}
+
+.img-frame {
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 42px 0 0 82px;
+}
+
+.rhythm__item-pic {
+}
+
+.rhythm__item-title {
+    margin: 0 0 0 0;
+    padding-top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.rhythm__item-text {
+    margin-top: 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #666666; 
+}
+
+.customers {
+}
+
+.customer__title {
+    margin: 247px 0 102px 358px;
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.customers__guitarist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 146px;
+    margin-left: 96px;
+}
+
+
+.custumer__guitatist-pic {
+}
+.customers__guitarist-desc {
+}
+.customer__guitarist-paragraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: #666666;
+}
+
+.customer__guitarist-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.customer__guitarist-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.08em;
+    color: #868686;
 }
