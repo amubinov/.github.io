@@ -3,15 +3,21 @@
 .wrapper {
     max-width: 1200px;
     height: auto;
-    background-color: beige;
 }
+
 .nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    
 }
+
+.nav__item {
+    display: grid;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
 .nav__item {
     width: 150px;
-    height: 35px;
+    height: 50px;
+    margin: 5px;
     background-color: blueviolet;
 }
