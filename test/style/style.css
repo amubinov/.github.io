@@ -1,0 +1,17 @@
+.header {
+}
+.wrapper {
+    max-width: 1200px;
+    height: auto;
+    background-color: beige;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav__item {
+    width: 150px;
+    height: 35px;
+    background-color: blueviolet;
+}
