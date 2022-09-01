@@ -1,12 +1,12 @@
 
-// let name = prompt('как тебя зовут?');
-// alert(`Тебя зовут ${name} !`);
-// let age = prompt(`Сколько тебе лет ${name} ?`)
-// alert(`${name} Ты родился в ${new Date().getFullYear()-age} году!`)
-// let geek = confirm('Я прав?');
-// if 
-//     (geek==true) {alert('Its cool!Thanks!');
-// }
+let name = prompt('как тебя зовут?');
+alert(`Тебя зовут ${name} !`);
+let age = prompt(`Сколько тебе лет ${name} ?`)
+alert(`${name} Ты родился в ${new Date().getFullYear()-age} году!`)
+let geek = confirm('Я прав?');
+if 
+    (geek==true) {alert('Its cool!Thanks!');
+}
 
 // let question = prompt( 'Какое официальное название javascript?');
 // if (question == 'ECMAScript') {
@@ -28,8 +28,3 @@
 //     console.log('Правда');
 // }
 
-let age =prompt("Сколько ваи лет?", 18);
-let welcome = (age<18) ?
-()=>alert("Привет!"):
-()=>alert("Здравствуйте");
-welcome();
